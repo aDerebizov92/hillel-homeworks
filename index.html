@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ДЗ 3.1 — Перелік типів</title>
+</head>
+<body>
+  <h1>ДЗ 3.1 — типи даних</h1>
+  <p>Відкрий консоль (F12 → Console), щоб побачити результат.</p>
+
+  <script>
+    // Виводимо всі основні типи даних JavaScript
+    // за допомогою оператора typeof та console.log
+
+    // Примітивні типи:
+    console.log(typeof "Привіт");        // string    — рядок (текст)
+    console.log(typeof 42);              // number    — число
+    console.log(typeof true);            // boolean   — логічний тип (true/false)
+    console.log(typeof undefined);       // undefined — значення не задано
+    console.log(typeof null);            // "object"  — відомий "баг" JS (насправді тип null)
+    console.log(typeof 123n);            // bigint    — дуже великі цілі числа
+    console.log(typeof Symbol("id"));    // symbol    — унікальний ідентифікатор
+
+    // Об'єктні (непримітивні) типи:
+    console.log(typeof { name: "Alex" }); // object   — об'єкт
+    console.log(typeof [1, 2, 3]);        // object   — масив теж object
+    console.log(typeof function () {});   // function — функція
+  </script>
+</body>
+</html>
