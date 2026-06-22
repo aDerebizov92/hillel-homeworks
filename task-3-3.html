@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ДЗ 3.3 — Розкласти п'ятизначне число</title>
+</head>
+<body>
+  <h1>ДЗ 3.3 — розкладання числа по цифрах</h1>
+  <p>Відкрий консоль (F12 → Console), щоб побачити результат.</p>
+
+  <script>
+    // Беремо п'ятизначне число
+    const number = 10369;
+
+    // Перетворюємо число на рядок, розбиваємо на окремі цифри
+    // і з'єднуємо назад через пробіл. Порядок зберігається.
+    const result = String(number).split("").join(" ");
+
+    console.log(result); // 1 0 3 6 9
+  </script>
+</body>
+</html>
