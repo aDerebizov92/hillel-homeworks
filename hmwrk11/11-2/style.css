@@ -1,0 +1,11 @@
+.c-cta {
+    padding: 16px 40px;
+    background-color: black;
+    border: 0px;
+    color: white;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+.c-cta:hover {
+    background-color: orangered;
+}

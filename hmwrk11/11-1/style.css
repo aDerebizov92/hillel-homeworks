@@ -1,0 +1,18 @@
+table {
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+tr:first-child td {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+tr td:first-child {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
